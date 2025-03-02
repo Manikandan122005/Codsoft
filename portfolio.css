@@ -13,6 +13,7 @@ header {
     background-color: rgb(14, 57, 71);
     width: 100%;
     padding: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 section.name {
     max-width: 90%;

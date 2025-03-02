@@ -1,134 +1,87 @@
-body{
-    background-attachment:fixed;
+body {
     background-image: url(https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.jpg?b=1&s=612x612&w=0&k=20&c=I8gIoXrpraVvPfQJ8NN3-kJKOP4yWw3FLNIsXo1dwks=);
-    background-repeat: no-repeat;
-    width: 100%;height: 100%;
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     text-align: center;
-    align-items: center;    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-h1.name{
-    font-family:'Times New Roman', Times, serif;
-    
-}
-img{
-    width: 7.5%;height: 70.5%;
-    border-radius: 30%;
-    position: relative;
-    right: 580px;
-    top: 30px;
-}
-section.name{
-    width: 90%;
-    height: 200px;
-    background-color:  rgba(142, 229, 233,0.5);
-    border: solid black 1px;
-  position: relative;
-  left: 60px;
-  top: 125px;
-  border-radius: 40px;
-}
-p.intro{
-    font-family: sans-serif;
-    width: 80%;
-    position: relative;
-    left: 160px;bottom: 60px;
-}
-p.name{
-    z-index: 2;
-    position: absolute;
-    right: 940px ;
-    bottom: 90px;
-    font-size: 40px;
-}
-header{
-    color: rgb(255, 255, 255);
+header {
+    color: white;
     background-color: rgb(14, 57, 71);
-    width: 100%;height: 120px;
-    position:absolute;
-    top: 0px;
-}
-section.skills{
-    z-index: 0;
-    width: 90%;
-    height: 200px;
-
-    border-radius: 40px;
-    position: absolute;
-    top: 350px;
-    left: 60px;
-}
-ul{
-    list-style: none;
-    height: 2cm;
-    position: relative;
-    top: 30px;
-    }
-ul li{
-background-color:  rgb(14, 57, 71);
-border-radius: 40px;
-font-size: 25px;
-padding: 9px;
-margin: 5px;
-color: white;
-width: fit-content;
-display: inline-grid;
-
-}
-section.projectres{
-    display: flex;
-    width: 90%;
-    height: 400px;
-    border-radius: 40px;
-    position: absolute;
-    top:80%;
-    left:60px;
-}
-section.project{
-    color: white;
-    background-color:  rgb(14, 57, 71);
-    width: 46%;height: 350px;
-    position: relative;
-    top: 30px;left: 30px;
-    border-radius: 60px;
-    border: solid white 1px;
-}
-section.resume{
-    color: rgb(255, 255, 255);
-    background-color:  rgb(14, 57, 71);
-    width: 46%;height: 350px;
-    position: relative;
-    left: 80px;
-    top: 30px;
-    border-radius: 60px;
-    border: solid white 1px;
-
-}
-button{
-    border: solid rgb(0, 0, 0) 3px;
-    background-color: aquamarine;
-    font-size: 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-section.resume>p{
-    font-size: 20px;
-}
-section.contact{
-    background-color:  rgba(142, 229, 233,0.7);
-position: absolute;
-top: 1020px;
-left: 510px;
-font-size: 20px;
-border-radius:40px;
-width: 30%;
-}
-.footer{
-    background-color:rgb(14, 57, 71);
-    color: white;
-    font-size: 20px;
     width: 100%;
-    height: 70px;
-    position: absolute;
-    top: 1400px;
-    
+    padding: 20px 0;
+}
+section.name {
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(142, 229, 233, 0.5);
+    border: 1px solid black;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section.skills {
+    max-width: 90%;
+    margin: 30px auto;
+}
+section.name img {
+    width: 100px;  
+    height: 100px;
+    border-radius:30%;
+    margin-bottom: 10px;}
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+ul li {
+    background-color: rgb(14, 57, 71);
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 18px;}
+section.projectres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90%;
+    margin: 40px auto;
+    gap: 20px;
+}
+section.project, section.resume {
+    background-color: rgb(14, 57, 71);
+    color: white;
+    flex: 1;
+    min-width: 300px;
+    max-width: 45%;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+button {
+    background-color: aquamarine;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+section.contact {
+    max-width: 90%;
+    margin: 40px auto;
+    background-color: rgba(142, 229, 233, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;}
+.footer {
+    background-color: rgb(14, 57, 71);
+    color: white;
+    text-align: center;
+    padding: 20px;
 }

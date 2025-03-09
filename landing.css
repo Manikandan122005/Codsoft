@@ -5,7 +5,7 @@ body {
     background:linear-gradient(#0d9fd8,#ff8330);
 }
 header {
-    background-image: url(Backgroundforthelanding.webp);
+    background-image:url(Backgroundforthelanding.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
